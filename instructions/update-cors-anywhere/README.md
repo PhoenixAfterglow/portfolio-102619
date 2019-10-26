@@ -9,13 +9,13 @@
 
 `heroku config:set ORIGIN_URL=$(heroku apps:info -s | grep web_url | cut -d= -f2)`
 
-* Create a file called `server.js`
+<!-- * Create a file called `server.js`
 
-* `npm init`
+* `npm init` -->
 
-* `npm install express request`
+<!-- * `npm install express request` -->
 
-* Copy the code in [example-cors-server.js](./example-cors-server.js) to serve static assets from your `public` folder and enable the CORS URL
+<!-- * Copy the code in [example-cors-server.js](./example-cors-server.js) to serve static assets from your `public` folder and enable the CORS URL -->
 
 * Change any API calls in your project using cors-anywhere to use your new server like so:
 
